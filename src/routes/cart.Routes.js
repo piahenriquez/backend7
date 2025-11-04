@@ -8,7 +8,7 @@ const {
     editCart,
     forceClearCart,
     updateCartItem 
-} = require('../controllers/cart.Controller');
+} = require('../controllers/cart.controller');
 
 const router = express.Router();
 
