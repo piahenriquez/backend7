@@ -58,7 +58,7 @@ app.use("/api/comments", commentRoutes);
 
 app.use("/api/carts", cartRoutes);
 
-// Iniciar el servidor
-app.listen(PORT, () => {
-    console.log(` Servidor corriendo en http://localhost:${PORT}`);
+// Iniciar el servidor 
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
 });
