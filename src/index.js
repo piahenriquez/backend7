@@ -23,6 +23,7 @@ connectDB();
 // Configuración CORS 
 const allowedOrigins = [
     'http://localhost:5173',
+    'https://ceramicasfelices.netlify.app'
 ];
 
 // Middlewares
